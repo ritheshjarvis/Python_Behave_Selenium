@@ -35,4 +35,4 @@ def step_impl(context):
 @then(u'home page is displayed')
 def step_impl(context):
     Home(context.driver).verify_home_page()
-    time.sleep(5)
+    time.sleep(3)
